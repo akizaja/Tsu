@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data PKL - Kelompok 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>   
+        <div class="logo">KELOMPOK-5</div>
+        <ul class="nav-links">
+            </ul>
+    </nav>
+</header>
+
+<main class="data-page">
+    <div class="data-container">
+        <h1>Data Siswa PKL</h1>
+        <p class="subtitle">Tabel data siswa yang sedang melaksanakan PKL.</p>
+        
+        <div id="admin-controls" style="display: none; margin-bottom: 20px;">
+             <button id="add-row-btn" class="btn-kirim">Tambah Data</button>
+        </div>
+
+        <div class="table-wrapper">
+            <table id="data-table">
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Nama Siswa</th>
+                        <th>Kelas</th>
+                        <th>Perusahaan</th>
+                        <th>Status</th>
+                        <th class="actions-column">Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+
+<div id="toast-notification" class="toast"></div>
+<script src="script.js"></script>
+</body>
+</html>
